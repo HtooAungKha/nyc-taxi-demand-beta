@@ -1,0 +1,32 @@
+{
+  "exported_at_utc": "2026-11-17T05:00:08Z",
+  "catalog": "nyc_taxi",
+  "data_range": [
+    "2023-01-01",
+    "2026-10-01"
+  ],
+  "test_period": [
+    "2026-01-01",
+    "2026-10-01"
+  ],
+  "model": {
+    "name": "nyc_taxi.ml.zone_demand_model",
+    "alias": "champion",
+    "version": 3,
+    "run_id": "d35a46139b8148cba5d88bab3ab85491"
+  },
+  "latest_pipeline_update": {
+    "update_id": "22b0e9c2-a882-4ac7-9df3-acc4943a297b",
+    "finished_at": "2026-11-16 02:19:19.141000"
+  },
+  "files": {
+    "zones.csv": 265,
+    "citywide_daily.csv": 1369,
+    "zone_hourly_predictions.parquet": 393120,
+    "model_metrics.csv": 7,
+    "zone_error_summary.csv": 60,
+    "benchmarks.csv": 21,
+    "layer_counts.csv": 4,
+    "quarantine_rules.csv": 4
+  }
+}

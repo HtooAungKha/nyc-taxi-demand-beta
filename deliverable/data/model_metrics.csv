@@ -1,0 +1,8 @@
+model,split,mae,rmse,r2,wape,train_seconds
+random_forest (final),test,15.174,27.82,0.907,0.192,105.2
+baseline_4wk_avg,test,15.866,29.299,0.897,0.201,0.0
+baseline_last_week,test,17.832,33.219,0.867,0.226,0.0
+random_forest,valid,14.802,27.498,0.92,0.182,70.0
+hist_gradient_boosting,valid,14.978,28.769,0.913,0.184,73.8
+baseline_4wk_avg,valid,16.141,30.651,0.901,0.199,0.0
+baseline_last_week,valid,18.112,34.759,0.873,0.223,0.0

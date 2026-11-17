@@ -1,0 +1,22 @@
+experiment,variant,avg_seconds,rows,metric_name,metric_value,measurements,last_run
+batch_inference,champion_model,3.01,393120,,,3,2026-11-16 02:29:00.107585
+feature_engineering,spark_window_lags,8.08,1931040,,,3,2026-11-16 02:19:51.895832
+gold_vs_silver,top_zones_month_gold,0.73,10,,,1,2026-11-15 15:05:17.532097
+gold_vs_silver,top_zones_month_silver,1.02,10,,,1,2026-11-15 15:05:22.422695
+gold_vs_silver,zone_week_gold,0.55,168,,,1,2026-11-15 15:05:08.383380
+gold_vs_silver,zone_week_silver,0.96,168,,,1,2026-11-15 15:05:13.792403
+ingestion,events_download,227.43,962344,,,3,2026-11-16 02:17:13.816308
+ingestion,tlc_download,111.82,44,megabytes,1692.05,2,2026-11-15 14:55:15.426662
+ingestion,tlc_schema_normalize,6.68,0,,,2,2026-11-15 14:55:55.950311
+ingestion,weather_download,22.93,32856,,,3,2026-11-16 02:16:46.288441
+liquid_clustering,query_clustered,0.88,24,,,5,2026-11-15 15:04:47.600155
+liquid_clustering,query_unclustered,0.96,24,,,5,2026-11-15 15:04:43.365916
+liquid_clustering,write_clustered_and_optimize,15.89,10662170,,,1,2026-11-15 15:04:01.623933
+liquid_clustering,write_unclustered,13.74,10662170,,,1,2026-11-15 15:03:43.992441
+model_training,hist_gradient_boosting,74.14,1012320,valid_mae,14.978,3,2026-11-16 02:22:51.715735
+model_training,random_forest,69.79,1012320,valid_mae,14.802,3,2026-11-16 02:21:30.419470
+pipeline_refresh,full_refresh,167.0,161781947,,,1,2026-11-15 15:03:05.748638
+pipeline_refresh,incremental_update,130.0,3876044,,,1,2026-11-15 15:03:03.109052
+training_data_volume,12_months,47.31,527040,valid_mae,14.347,3,2026-11-16 02:24:24.964054
+training_data_volume,24_months,70.38,1012320,valid_mae,14.978,3,2026-11-16 02:25:43.260090
+training_data_volume,6_months,31.67,264960,valid_mae,19.179,3,2026-11-16 02:23:31.107411

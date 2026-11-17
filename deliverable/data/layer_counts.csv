@@ -1,0 +1,5 @@
+table_name,row_count
+bronze.tlc_trips_raw,161781947
+silver.tlc_trips,157641695
+silver.tlc_trips_quarantine,4140252
+gold.zone_hourly_demand,8641128

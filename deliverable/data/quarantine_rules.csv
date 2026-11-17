@@ -1,0 +1,5 @@
+rule,trips
+non_negative_fare,4132848
+dropoff_after_pickup,6295
+trip_under_24_hours,1075
+pickup_in_project_range,176
